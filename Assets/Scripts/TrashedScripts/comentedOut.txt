@@ -1,0 +1,19 @@
+        //pieceRB.velocity =  rb.GetRelativePointVelocity(pieceRB.position); //rb.GetPointVelocity(piece.transform.position); //rb.velocity + rb.angularVelocity;
+        //pieceRB.angularVelocity = shadowRB.angularVelocity;
+        //pieceRB.angularVelocity = shadowRB.angularVelocity;
+        //pieceRB.rotation.LookRotation( transform.forward, ground_direction );
+        //pieceRB.velocity = Vector3.RotateTowards(pieceRB.velocity.normalized, shadowRB.velocity.normalized, 10, 1000) * pieceRB.velocity.magnitude;
+        
+        // //pieces distance to objects center (R)
+        // float dist = Vector3.Distance(piece.transform.position, new Vector3(0,0,0));
+        // // objects perimeter in pieces position
+        // float pieceP = dist * 2 * Mathf.PI;
+        // //
+        // float rotationTime = 2 * Mathf.PI / shadowRB.angularVelocity.magnitude;
+        // //rotation speed in meters
+        // float RotationSpeed = pieceP / rotationTime;
+        // //
+        // temp.angularVelocity.magnitude = RotationSpeed;
+        // pieceRB.velocity = shadowRB.velocity;
+        
+        // //pieceRB.velocity = shadowRB.velocity + shadowRB.angularVelocity * ;

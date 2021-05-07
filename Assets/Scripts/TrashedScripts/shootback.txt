@@ -1,0 +1,29 @@
+    public void shootBack()
+    {
+            GameObject cannon = GameObject.Find("Cannon");
+            GameObject clone = Instantiate(cannonball, transform.position, transform.rotation);
+            Rigidbody cloneRB = clone.GetComponent<Rigidbody>();
+            cloneRB.rotation = Quaternion.LookRotation(cannon.transform.position);
+            cloneRB.velocity = new Vector3(150,0,0);
+            Physics.IgnoreCollision(clone.GetComponent<Collider>(), gameObject.GetComponent<Collider>());
+            //GameObject ggates = GameObject.Find("Gates");
+            for(int i = 0; i < 3; i++)
+            {
+                randPos = Random.Range(15,150);
+                randSide = Random.Range(0,1);
+                if(randSide == 1)
+                {
+                    GameObject gatesSpawn = GameObject.Instantiate(ggates);
+                    gatesSpawn.transform.position = new Vector3(randPos,0,randPos);
+                    //ggates,new Vector3(randPos,0,randPos), new Quaternion(0,0,0,0)
+                    //gates.transform.position = new Vector3(randPos,0,randPos);
+                }
+                else
+                {
+                    GameObject gatesSpawn = GameObject.Instantiate(ggates);
+                    gatesSpawn.transform.position = new Vector3(-randPos,0,-randPos);
+                    //GameObject.Instantiate(ggates,new Vector3(-randPos,0,-randPos), new Quaternion(0,0,0,0));
+                    //gates.transform.position = new Vector3(-randPos,0,-randPos);
+                }
+            }
+    }
