@@ -26,7 +26,7 @@ public class PlaySound : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) 
     {
-        print("Playing hit Sound Effect");
+        //print("Playing hit Sound Effect");
         sound.Play();
     }
         

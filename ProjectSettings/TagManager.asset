@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - PATAIKEI
+  - Floor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Floor
   - Water
   - UI
   - 

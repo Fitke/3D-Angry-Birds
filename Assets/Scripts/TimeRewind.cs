@@ -44,10 +44,12 @@ public class TimeRewind : MonoBehaviour
     }
     void StartRewind(){
         isRewinding = true;
+        Time.timeScale = 0.25f;
     }
     void StopRewind(){
         isRewinding = false;
         rb.isKinematic = false;
+        Time.timeScale = 1f;
     }
     void Record(){
         positions.Insert(0, new ReferenceInTime(

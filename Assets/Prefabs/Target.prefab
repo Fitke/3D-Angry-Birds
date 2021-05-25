@@ -113,8 +113,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ggates: {fileID: 1498612030771916709}
   cubeSize: 0.25
-  angularVelocity: 0
-  velocity: 0
   explosionForce: 50
   explosionRadius: 4
   explosionUpward: 0.4
@@ -5122,8 +5120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ggates: {fileID: 1498612030771916709}
   cubeSize: 0.25
-  angularVelocity: 0
-  velocity: 0
   explosionForce: 50
   explosionRadius: 4
   explosionUpward: 0.4
@@ -10268,8 +10264,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ggates: {fileID: 1498612030771916709}
   cubeSize: 0.25
-  angularVelocity: 0
-  velocity: 0
   explosionForce: 50
   explosionRadius: 4
   explosionUpward: 0.4
@@ -20139,8 +20133,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ggates: {fileID: 1498612030771916709}
   cubeSize: 0.25
-  angularVelocity: 0
-  velocity: 0
   explosionForce: 50
   explosionRadius: 4
   explosionUpward: 0.4
@@ -25148,8 +25140,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ggates: {fileID: 1498612030771916709}
   cubeSize: 0.25
-  angularVelocity: 0
-  velocity: 0
   explosionForce: 50
   explosionRadius: 4
   explosionUpward: 0.4
@@ -35019,8 +35009,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ggates: {fileID: 1498612030771916709}
   cubeSize: 0.25
-  angularVelocity: 0
-  velocity: 0
   explosionForce: 50
   explosionRadius: 4
   explosionUpward: 0.4
@@ -44890,8 +44878,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ggates: {fileID: 1498612030771916709}
   cubeSize: 0.25
-  angularVelocity: 0
-  velocity: 0
   explosionForce: 50
   explosionRadius: 4
   explosionUpward: 0.4
@@ -45037,8 +45023,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ggates: {fileID: 1498612030771916709}
   cubeSize: 0.25
-  angularVelocity: 0
-  velocity: 0
   explosionForce: 50
   explosionRadius: 4
   explosionUpward: 0.4
@@ -45184,8 +45168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ggates: {fileID: 1498612030771916709}
   cubeSize: 0.25
-  angularVelocity: 0
-  velocity: 0
   explosionForce: 50
   explosionRadius: 4
   explosionUpward: 0.4
@@ -45382,8 +45364,13 @@ PrefabInstance:
       objectReference: {fileID: 708874484555866429}
     - target: {fileID: 5418241243464377198, guid: 561c752507e52104bba2862d0e43314a,
         type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418241243464377198, guid: 561c752507e52104bba2862d0e43314a,
+        type: 3}
       propertyPath: m_CollisionDetection
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 561c752507e52104bba2862d0e43314a, type: 3}
